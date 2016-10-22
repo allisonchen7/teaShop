@@ -3,6 +3,43 @@
 	text-align: center;
 }
 
+.top-nav{
+  position: fixed;
+  top:0;
+  left: 0;
+  left:0;
+  right:0;
+  z-index: 10;
+}
+
+.nav-main-item {
+  display: inline-block;
+  color: #5a752f;
+  background-color: white;
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.5s ease-out;
+}
+
+.bg1 {
+  background-color: white;
+}
+
+.bg2 {
+  background-color: white;
+}
+
+.bg3 {
+  background-color: white;
+}
+
+.nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
+  color: #5a752f;
+ /* background-color: #5a752f;*/
+  border-bottom: 3px solid #5a752f;
+}
+
 body {
 	font-family: 'Ek Mukta', Helvetica, sans-serif;
 	padding: 1rem;

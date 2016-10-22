@@ -19,22 +19,37 @@
 	flex: 1 1 auto;
 }
 
-/*
 [class^='grid-col-'] {
 	float: left;
 	padding: 0;
 	text-align: center;
+	
 }
 
-.grid-col-1of4{
+.grid-col-1of2, .grid-col-1of4, .grid-col-1of3, .grid-col-2of3 {
 	width: 100%;
-} 
+}
 
 .grid-row::after {
-	content: "test";
+	content: "";
 	display: block;
 	clear: both;
 }
+
+.grid-col-1of4 > .main-nav-item {
+	width: 100%;
+}
+
+body {
+	padding-top:  6rem;
+}
+
+
+
+/*.grid-col-1of4{
+	width: 100%;
+	text-align: center;
+}*/
 
 @media (min-width: 30em) {
 	.grid-col-1of4 {
@@ -42,4 +57,4 @@
 	}
 
 }
-*/
+
